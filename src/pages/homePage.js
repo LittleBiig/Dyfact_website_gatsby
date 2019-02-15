@@ -7,16 +7,20 @@ const HomePage = () => (
       query HomePage {
         contentfulHomePage {
           title
+          biographyText
         }
       }
     `}
         render={({
                      contentfulHomePage: {
-                         title
+                         title,
+                         biographyText
+
                      }
                  }) => (
             <>
                 <h1>{title}</h1>
+                <p>{biographyText}</p>
             </>
         )}
     />

@@ -8,9 +8,6 @@ const HomePage = () => (
       query HomePage {
         contentfulHomePage {
           title
-          biographyText {
-            biographyText
-          }
           siteEnMaintenance {
               childContentfulRichText {
                    html
@@ -22,7 +19,6 @@ const HomePage = () => (
         render={({
                      contentfulHomePage: {
                          title,
-                         biographyText: {biographyText},
                          siteEnMaintenance: {
                              childContentfulRichText: {
                                  html
@@ -32,7 +28,6 @@ const HomePage = () => (
                  }) => (
             <>
                 <h1>{title}</h1>
-                <p>{biographyText}</p>
                 <div dangerouslySetInnerHTML={ { __html: html } }></div>
             </>
         )}

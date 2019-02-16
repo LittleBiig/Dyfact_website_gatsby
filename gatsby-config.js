@@ -15,6 +15,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `@contentful/gatsby-transformer-contentful-richtext`,
     {
         resolve: "gatsby-source-contentful",
         options: {

@@ -11,7 +11,6 @@ const IndexPage = () => (
       <SEO title="Home" keywords={[`dyfact`, `dyfactmusic` ]} />
       <HomePage />
   </div>
-  </div>
 );
 
 export default IndexPage

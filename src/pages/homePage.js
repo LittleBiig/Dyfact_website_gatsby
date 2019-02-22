@@ -39,10 +39,10 @@ const HomePage = () => (
             <>
                 <h1>{title}</h1>
                 <p>{biographyText}</p>
-                <div dangerouslySetInnerHTML={ { __html: html } }></div>
+
                 <WelcomeBoard />
                 <Musics />
-                <Biography />
+                <Biography html={html}/>
                 <Newsletter />
                 <Contact />
                 <Footer />

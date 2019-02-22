@@ -1,0 +1,29 @@
+#banner{
+
+z-index:2000;
+}
+
+.navbar{
+  width:100vw;
+  padding-top:10px;
+  background-color:rgba(0,0,0,0.2);
+  border:none;
+}
+#banner>ul{
+  width:90vw;
+  display:flex;
+  justify-content: space-between;
+}
+#banner>ul>li>a{
+  height: 70px;
+      font-size: 40px;
+}
+navbar-header{
+  width:10vw;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #080808;
+    transition-duration: 0.5s;
+    font-size: 70px;
+  }

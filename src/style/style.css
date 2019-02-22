@@ -1,0 +1,75 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+
+  font-family: 'Ailerons';
+  color: white;
+  padding:0;
+  margin:0;
+}
+
+@font-face {
+  font-family: 'Ailerons';
+  src: url('fonts/Ailerons-Typeface.otf');
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url("https://fonts.googleapis.com/css?family=Roboto");
+}
+
+
+body{
+overflow-x: hidden;
+}
+
+.row{
+  margin:0;
+  padding: 0;
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+
+.section{
+  /*background-color: black;*/
+    background-color: rgba(22,25,28,1);
+  padding-bottom: 150px;
+  /*width:100vw;*/
+  overflow:hidden;
+}
+
+.section>div>div>h2{
+  margin-bottom:80px;
+  margin-top:80px;
+  font-size: 70px;
+}
+
+.content{
+}
+
+a, p, b, i, em, strong, mark, small, del, ins, sub, sup{
+  font-family:'Roboto';
+}
+
+/*
+*************************************
+MEDIA QUERIES
+*************************************
+*/
+
+@media screen and (max-width: 968px){
+  .section>div>div>h2{
+    font-size: 50px;
+  }
+
+  .section>div>div>h2{
+    margin-bottom:40px;
+    margin-top:30px;
+  }
+
+  .content{
+    margin:0;
+    padding:0;
+  }
+}

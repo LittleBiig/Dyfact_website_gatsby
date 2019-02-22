@@ -1,0 +1,24 @@
+footer{
+  background-color: black;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    /*width:100vw;*/
+      margin-bottom: 150px;
+}
+
+
+.logo-footer{
+    margin-top: 100px;
+}
+.logo-footer>div>img{
+    height: 250px;
+}
+
+.copyrights{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.copyrights>div>p{
+  font-size: 15px;
+}

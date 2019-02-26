@@ -37,8 +37,8 @@ const HomePage = () => (
                      }
                  }) => (
             <>
-                <h1>{title}</h1>
-                <p>{biographyText}</p>
+                {/*<h1>{title}</h1>*/}
+                {/*<p>{biographyText}</p>*/}
 
                 <WelcomeBoard />
                 <Musics />

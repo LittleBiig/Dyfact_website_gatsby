@@ -12,22 +12,22 @@ const WelcomeBoard = () => (
             <a className="js-scrollTo welcome-board-text-1" href="#musique">
                 <h1>MUSIQUE
                 </h1></a>
-            <img src={welcomeBoard1} className="welcome-board-image " alt={"welcome-board-image-1"} />
+            <img src={welcomeBoard1} className="welcome-board-image " alt={"welcome-board-1"} />
         </div>
         <div className=" welcome-board-single ">
             <a className="js-scrollTo welcome-board-text-2" href="#infos">
                 <h1>INFOS</h1></a>
-            <img src={welcomeBoard2} className="welcome-board-image " alt={"welcome-board-image-2"} />
+            <img src={welcomeBoard2} className="welcome-board-image " alt={"welcome-board-2"} />
         </div>
         <div className=" welcome-board-single ">
             <a className="js-scrollTo welcome-board-text-3" href="#contact">
                 <h1>CONTACT</h1></a>
-            <img src={welcomeBoard3} className="welcome-board-image " alt={"welcome-board-image-3"} />
+            <img src={welcomeBoard3} className="welcome-board-image " alt={"welcome-board-3"} />
         </div>
         <div className=" welcome-board-single ">
             <a className="js-scrollTo welcome-board-text-4" href="#newsletter">
                 <h1>NEWSLETTER</h1></a>
-            <img src={welcomeBoard4} className="welcome-board-image " alt={"welcome-board-image-4"} />
+            <img src={welcomeBoard4} className="welcome-board-image " alt={"welcome-board-4"} />
         </div>
         <div className="welcome-board-logo">
             <img src={logoDyfact} alt="" className="welcome-board-logo-image" />

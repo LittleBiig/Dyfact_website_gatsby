@@ -13,14 +13,14 @@ const Footer = () => (
         </div>
         <div>
             <img src="src/logos/Logo_Dyfact_black.png"
-                 style="display:none"
+                 style={{display:"none"}}
                  alt="" />
-                <img src="src/logos/logo-colors.png"
-                     style="display:none"
-                     alt="" />
-                    <img src="src/logos/texte_griffures.png"
-                         style="display:none"
-                         alt="" />
+            <img src="src/logos/logo-colors.png"
+                 style={{display:"none"}}
+                 alt="" />
+            <img src="src/logos/texte_griffures.png"
+                 style={{display:"none"}}
+                 alt="" />
         </div>
     </footer>
 );

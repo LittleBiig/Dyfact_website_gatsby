@@ -19,6 +19,21 @@ const HomePage = () => (
                         src
                       }
               }
+          welcomePhoto2 {
+              fluid(maxWidth: 613) {
+                        src
+                      }
+              }
+          welcomePhoto3 {
+              fluid(maxWidth: 613) {
+                        src
+                      }
+              }
+          welcomePhoto4 {
+              fluid(maxWidth: 613) {
+                        src
+                      }
+              }
           biographyText {
             biographyText
           }
@@ -27,6 +42,7 @@ const HomePage = () => (
                    html
               }
           }
+          footerText
         }
       }
     `}
@@ -35,15 +51,17 @@ const HomePage = () => (
                 data
             ) => (
             <>
-                {/*<h1>{title}</h1>*/}
-                {/*<p>{biographyText}</p>*/}
-
-                <WelcomeBoard welcomePhoto1={data.contentfulHomePage.welcomePhoto1.fluid.src} />
+                <WelcomeBoard
+                    welcomePhoto1={data.contentfulHomePage.welcomePhoto1.fluid.src}
+                    welcomePhoto2={data.contentfulHomePage.welcomePhoto2.fluid.src}
+                    welcomePhoto3={data.contentfulHomePage.welcomePhoto3.fluid.src}
+                    welcomePhoto4={data.contentfulHomePage.welcomePhoto4.fluid.src}
+                />
                 <Musics />
                 <Biography html={data.contentfulHomePage.biography.childContentfulRichText.html}/>
                 <Newsletter />
                 <Contact />
-                <Footer />
+                <Footer footerText={data.contentfulHomePage.footerText}/>
             </>
         )
         }

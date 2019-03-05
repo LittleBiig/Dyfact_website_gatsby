@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = () => (
+const Footer = (props) => (
     <footer className="row">
         <div className="row logo-footer ">
             <div className="col-md-4 col-md-offset-4 text-center "><img src="src/logos/Logo_Dyfact.png"
@@ -8,7 +8,7 @@ const Footer = () => (
         </div>
         <div className="row copyrights ">
             <div className="col-md-4 col-md-offset-4 text-center ">
-                <p>© Dyfact 2018 | Tous droits reservés.</p>
+                <p>{props.footerText}</p>
             </div>
         </div>
         <div>

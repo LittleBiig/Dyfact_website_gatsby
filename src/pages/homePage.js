@@ -14,6 +14,11 @@ const HomePage = () => (
       query HomePage {
         contentfulHomePage {
           title
+          welcomePhoto1 {
+              fluid(maxWidth: 613) {
+                        src
+                      }
+              }
           biographyText {
             biographyText
           }
@@ -25,29 +30,23 @@ const HomePage = () => (
         }
       }
     `}
-        render={({
-                     contentfulHomePage: {
-                         title,
-                         biographyText: {biographyText},
-                         biography: {
-                            childContentfulRichText: {
-                                html
-                            }
-                         }
-                     }
-                 }) => (
+        render={
+            (
+                data
+            ) => (
             <>
                 {/*<h1>{title}</h1>*/}
                 {/*<p>{biographyText}</p>*/}
 
-                <WelcomeBoard />
+                <WelcomeBoard welcomePhoto1={data.contentfulHomePage.welcomePhoto1.fluid.src} />
                 <Musics />
-                <Biography html={html}/>
+                <Biography html={data.contentfulHomePage.biography.childContentfulRichText.html}/>
                 <Newsletter />
                 <Contact />
                 <Footer />
             </>
-        )}
+        )
+        }
     />
 );
 

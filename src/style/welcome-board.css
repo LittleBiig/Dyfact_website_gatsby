@@ -73,7 +73,7 @@
   z-index: 5;
   display: block;
   height:auto;
-  /*width: 100%;*/
+  min-width: 100%;
   filter: brightness(75%);
   -webkit-filter: brightness(75%);
   -moz-filter: brightness(75%);

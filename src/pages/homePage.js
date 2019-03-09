@@ -7,6 +7,7 @@ import Biography from "../components/Biography/Biography";
 import Newsletter from "../components/Newsletter/Newsletter";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
+import EmptyPlace from "../components/EmptyPlace/EmptyPlace";
 
 const HomePage = () => (
     <StaticQuery
@@ -15,22 +16,22 @@ const HomePage = () => (
         contentfulHomePage {
           title
           welcomePhoto1 {
-              fluid(maxWidth: 613) {
+              fluid(maxWidth: 2500) {
                         src
                       }
               }
           welcomePhoto2 {
-              fluid(maxWidth: 613) {
+              fluid(maxWidth: 2500) {
                         src
                       }
               }
           welcomePhoto3 {
-              fluid(maxWidth: 613) {
+              fluid(maxWidth: 2500) {
                         src
                       }
               }
           welcomePhoto4 {
-              fluid(maxWidth: 613) {
+              fluid(maxWidth: 2500) {
                         src
                       }
               }
@@ -58,8 +59,11 @@ const HomePage = () => (
                     welcomePhoto4={data.contentfulHomePage.welcomePhoto4.fluid.src}
                 />
                 <Musics />
+                <EmptyPlace image={data.contentfulHomePage.welcomePhoto1.fluid.src}/>
                 <Biography html={data.contentfulHomePage.biography.childContentfulRichText.html}/>
+                <EmptyPlace image={data.contentfulHomePage.welcomePhoto2.fluid.src}/>
                 <Newsletter />
+                <EmptyPlace image={data.contentfulHomePage.welcomePhoto3.fluid.src}/>
                 <Contact />
                 <Footer footerText={data.contentfulHomePage.footerText}/>
             </>

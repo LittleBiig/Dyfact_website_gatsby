@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => (
 
-    <div className="row section contact js-scrollTo "
+    <div className="section contact js-scrollTo "
          id="contact">
         <div className="row contact-title ">
             <div className="col-sm-12 ">

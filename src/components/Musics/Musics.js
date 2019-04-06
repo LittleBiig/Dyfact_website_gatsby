@@ -1,11 +1,12 @@
 import React from 'react';
 
 const Music = () => (
-    <div className="row section music js-scrollTo "
+    <div className="section music js-scrollTo "
          id="musique">
         <div className="row music-title ">
             <div className="col-sm-12 ">
-                <h2 className="text-center ">MUSIQUE</h2></div>
+                <h2 className="text-center ">MUSIQUE</h2>
+            </div>
         </div>
         <div className="row music-content content ">
             <div className="cover"><a href="https://www.youtube.com/watch?v=J1odG8DHjyQ"

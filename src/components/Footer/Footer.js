@@ -1,13 +1,13 @@
 import React from 'react';
 
 const Footer = (props) => (
-    <footer className="row">
+    <footer className="section">
         <div className="row logo-footer ">
-            <div className="col-md-4 col-md-offset-4 text-center "><img src="src/logos/Logo_Dyfact.png"
+            <div className="col-md-4 offset-4 text-center "><img src="src/logos/Logo_Dyfact.png"
                                                                         alt="" /></div>
         </div>
         <div className="row copyrights ">
-            <div className="col-md-4 col-md-offset-4 text-center ">
+            <div className="col-md-4 offset-4 text-center ">
                 <p>{props.footerText}</p>
             </div>
         </div>

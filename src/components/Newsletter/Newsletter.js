@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Newsletter = () => (
-    <div className="row section subscribing js-scrollTo "
+    <div className="section subscribing js-scrollTo "
          id="newsletter">
         <div className="subscribing-background">
             <img src="./src/compressed/subscribing/subscribing.jpg" alt=""/>

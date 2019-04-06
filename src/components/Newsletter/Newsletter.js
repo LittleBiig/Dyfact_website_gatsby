@@ -7,7 +7,7 @@ const Newsletter = () => (
             <img src="./src/compressed/subscribing/subscribing.jpg" alt=""/>
         </div>
         <div className="row subscribing-title ">
-            <div className="col-sm-12 ">
+            <div className="col-12 ">
                 <h2 className="text-center "
                     id="myBtn">NEWSLETTER</h2>
             </div>

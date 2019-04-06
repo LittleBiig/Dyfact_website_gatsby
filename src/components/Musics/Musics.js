@@ -4,7 +4,7 @@ const Music = () => (
     <div className="section music js-scrollTo "
          id="musique">
         <div className="row music-title ">
-            <div className="col-sm-12 ">
+            <div className="col-12 ">
                 <h2 className="text-center ">MUSIQUE</h2>
             </div>
         </div>

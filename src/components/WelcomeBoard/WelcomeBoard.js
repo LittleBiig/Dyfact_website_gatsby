@@ -6,7 +6,7 @@ import React from "react";
 import logoDyfact from "../../images/logos/Logo_Dyfact.png";
 
 const WelcomeBoard = (props) => (
-    <div className="row welcome-board">
+    <div className="row welcome-board" id={"#welcome-board"}>
 
         <div className=" welcome-board-single ">
             <a className="js-scrollTo welcome-board-text-1" href="#musique">
@@ -33,7 +33,8 @@ const WelcomeBoard = (props) => (
             <img src={logoDyfact} alt="" className="welcome-board-logo-image" />
         </div>
         <div className="welcome-board-logo-responsive">
-            <a href=".welcome-board" className="welcome-board-logo-responsive-image js-scrollTo"> <img src={logoDyfact} alt="" className="welcome-board-logo-responsive-image" />
+            <a href="#welcome-board" className="welcome-board-logo-responsive-image js-scrollTo">
+                <img src={logoDyfact} alt="" className="welcome-board-logo-responsive-image" />
             </a>
         </div>
 

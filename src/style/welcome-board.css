@@ -151,24 +151,24 @@ MEDIA QUERIES
   }
 
   .welcome-board-text-1 {
-    top: 10vh;
-    right: calc(50vw - 185.41px / 2);
+    top: 12vh;
+    right: calc(50vw - 300px / 2);
   }
 
   .welcome-board-text-2 {
-    top: 34vh;
-    left: calc(50vw - 130.5px / 2);
+    top: 36vh;
+    left: calc(50vw - 222px / 2);
 
   }
 
   .welcome-board-text-3 {
-    top: 58vh;
-    right: calc(50vw - 182.7px / 2);
+    top: 60vh;
+    right: calc(50vw - 300px / 2);
   }
 
   .welcome-board-text-4 {
-    top: 85vh;
-    left: calc(50vw - 264.16px / 2);
+    top: 88vh;
+    left: calc(50vw - 400px / 2);
   }
 
   .welcome-board-logo {

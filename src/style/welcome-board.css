@@ -1,0 +1,182 @@
+.welcome-board{
+  height:100vh;
+  /*width:100vw;*/
+  /*overflow: hidden;*/
+  display:flex;
+  flex-wrap:wrap;
+  margin:0px;
+}
+
+
+.welcome-board-single {
+  height:50vh;
+  width:50%;
+  overflow: hidden;
+  /*z-index: 5;*/
+}
+
+.welcome-board-single>a{
+  position: absolute;
+  margin-top:0;
+  z-index: 7;
+  color:white;
+  text-decoration: none;
+}
+
+.welcome-board-single>a>h1{
+  line-height:0.1;
+}
+
+.welcome-board-single>a>h1{
+  font-size: 6rem;
+}
+
+.welcome-board-single>a>h1:hover{
+  color:rgba(150,150,150,1);
+  /*text-shadow: 0px 0px 5px black;*/
+  -webkit-transition:   linear 0.15s 0s,   linear 0.15s 0s;
+     -moz-transition:   linear 0.15s 0s,   linear 0.15s 0s;
+       -o-transition:   linear 0.15s 0s,   linear 0.15s 0s;
+          transition:   linear 0.15s 0s,   linear 0.15s 0s;
+}
+
+
+.welcome-board-text-1{
+  top:44vh;
+  right:65vw;
+}
+.welcome-board-text-2{
+  top:44vh;
+  left:65vw;
+
+}
+.welcome-board-text-3{
+  bottom:45vh;
+  right:65vw;
+}
+.welcome-board-text-4{
+  bottom:45vh;
+  left:65vw;
+}
+
+
+.welcome-board-logo{
+  position: absolute;
+  z-index: 15;
+  overflow:hidden;
+  width: 30vw;
+  margin-left: calc((100vw - 30vw ) / 2 );
+  margin-top:calc((100vh - 30vw ) / 2 )
+}
+
+.welcome-board-image{
+  z-index: 5;
+  display: block;
+  height:auto;
+  min-width: 100%;
+  filter: brightness(75%);
+  -webkit-filter: brightness(75%);
+  -moz-filter: brightness(75%);
+  -o-filter: brightness(75%);
+  /*-ms-filter: brightness(75%);*/
+}
+
+.welcome-board-logo-image
+{
+  width: inherit;
+}
+
+.welcome-board-logo-responsive{
+  /*box-shadow: 0px 0px 100px black;*/
+
+  z-index:15;
+  display: none;
+    position: fixed;
+    margin-top:20px;
+    margin-left:15px;
+  width: 15vw;
+  height: 15vh;
+}
+
+.welcome-board-logo-responsive-image{
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  /*-ms-filter: brightness(100%);*/
+  width: 100%;
+}
+
+.welcome-board-logo-responsive-image:hover{
+
+  -webkit-transition:   linear 0.15s 0s,   linear 0.15s 0s;
+     -moz-transition:   linear 0.15s 0s,   linear 0.15s 0s;
+       -o-transition:   linear 0.15s 0s,   linear 0.15s 0s;
+          transition:   linear 0.15s 0s,   linear 0.15s 0s;
+
+  filter: brightness(75%);
+  -webkit-filter: brightness(75%);
+  -moz-filter: brightness(75%);
+  -o-filter: brightness(75%);
+  /*-ms-filter: brightness(75%);*/
+}
+
+
+/*
+*************************************
+MEDIA QUERIES
+*************************************
+*/
+
+@media screen and (max-width: 968px) {
+
+  .welcome-board-single > a > h1 {
+    font-size: 4.5rem;
+  }
+
+  .welcome-board-image {
+    height: 100%;
+    width: auto;
+  }
+
+  .welcome-board-single {
+    height: 25vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .welcome-board-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .welcome-board-text-1 {
+    top: 10vh;
+    right: calc(50vw - 185.41px / 2);
+  }
+
+  .welcome-board-text-2 {
+    top: 34vh;
+    left: calc(50vw - 130.5px / 2);
+
+  }
+
+  .welcome-board-text-3 {
+    top: 58vh;
+    right: calc(50vw - 182.7px / 2);
+  }
+
+  .welcome-board-text-4 {
+    top: 85vh;
+    left: calc(50vw - 264.16px / 2);
+  }
+
+  .welcome-board-logo {
+    display: none;
+  }
+
+  .welcome-board-logo-responsive {
+    display: block;
+
+  }
+}

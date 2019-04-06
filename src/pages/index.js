@@ -1,16 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import HomePage from "./homePage"
-
-// import Layout from "../components/layout"
-
-import SEO from "../components/seo"
+import "../style/index.scss";
 
 const IndexPage = () => (
-  <div>
-      <SEO title="Home" keywords={[`dyfact`, `dyfactmusic` ]} />
-      <HomePage />
-  </div>
+  <>
+        <HomePage/>
+  </>
 );
 
 export default IndexPage

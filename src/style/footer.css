@@ -1,0 +1,17 @@
+footer{
+    background-color: black !important;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+.logo-footer{
+    margin-top: 100px;
+}
+.logo-footer>div>img{
+    height: 250px;
+}
+
+.copyrights>div>p{
+  font-size: 15px;
+}

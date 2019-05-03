@@ -16,14 +16,14 @@
   margin-bottom: 50px;
 }
 
-.cover>a{
-  height:300px;
-  width:200px;
+.cover>a {
+  height: 300px;
+  width: 250px;
   display: flex;
   justify-content: center;
 }
 
-.cover>a>img{
+.cover>a>img {
 
 width:250px;
 height: 250px;

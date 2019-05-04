@@ -72,8 +72,8 @@
 .welcome-board-image{
   z-index: 5;
   display: block;
-  height:auto;
-  min-width: 100%;
+  height: 125%;
+  width: auto;
   filter: brightness(75%);
   -webkit-filter: brightness(75%);
   -moz-filter: brightness(75%);

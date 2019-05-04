@@ -35,6 +35,16 @@ const HomePage = () => (
                         src
                       }
               }
+          emptyPlace1 {
+              fluid(maxWidth: 2500) {
+                        src
+                      }
+              }
+          emptyPlace2 {
+              fluid(maxWidth: 2500) {
+                        src
+                      }
+              }
           biographyText {
             biographyText
           }
@@ -59,11 +69,11 @@ const HomePage = () => (
                     welcomePhoto4={data.contentfulHomePage.welcomePhoto4.fluid.src}
                 />
                 <Musics />
-                <EmptyPlace image={data.contentfulHomePage.welcomePhoto1.fluid.src}/>
+                <EmptyPlace image={data.contentfulHomePage.emptyPlace1.fluid.src}/>
                 <Biography html={data.contentfulHomePage.biography.childContentfulRichText.html}/>
-                <EmptyPlace image={data.contentfulHomePage.welcomePhoto2.fluid.src}/>
+                <EmptyPlace image={data.contentfulHomePage.emptyPlace2.fluid.src}/>
                 <Newsletter />
-                <EmptyPlace image={data.contentfulHomePage.welcomePhoto3.fluid.src}/>
+                <EmptyPlace image={data.contentfulHomePage.emptyPlace2.fluid.src}/>
                 <Contact />
                 <Footer footerText={data.contentfulHomePage.footerText}/>
             </>

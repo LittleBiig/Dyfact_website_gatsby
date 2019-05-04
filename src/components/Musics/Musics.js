@@ -15,7 +15,6 @@ const Music = () => (
                         <a href="https://www.youtube.com/watch?v=J1odG8DHjyQ"
                            target="_blank"
                            rel="noopener noreferrer"
-
                         >
                             <img src="https://i.scdn.co/image/0f147cbd39837ff2edc18b0379d22f0dd47479b1"
                                  alt="cover Carry On"

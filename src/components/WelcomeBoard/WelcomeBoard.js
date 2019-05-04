@@ -10,23 +10,26 @@ const WelcomeBoard = (props) => (
 
         <div className=" welcome-board-single ">
             <a className="js-scrollTo welcome-board-text-1" href="#musique">
-                <h1>MUSIQUE
-                </h1></a>
+                <h1>MUSIQUE</h1>
+            </a>
             <img src={props.welcomePhoto1} className="welcome-board-image " alt={"welcome-board-1"} />
         </div>
         <div className=" welcome-board-single ">
             <a className="js-scrollTo welcome-board-text-2" href="#infos">
-                <h1>INFOS</h1></a>
+                <h1>INFOS</h1>
+            </a>
             <img src={props.welcomePhoto2} className="welcome-board-image " alt={"welcome-board-2"} />
         </div>
         <div className=" welcome-board-single ">
             <a className="js-scrollTo welcome-board-text-3" href="#contact">
-                <h1>CONTACT</h1></a>
+                <h1>CONTACT</h1>
+            </a>
             <img src={props.welcomePhoto3} className="welcome-board-image " alt={"welcome-board-3"} />
         </div>
         <div className=" welcome-board-single ">
             <a className="js-scrollTo welcome-board-text-4" href="#newsletter">
-                <h1>NEWSLETTER</h1></a>
+                <h1>NEWSLETTER</h1>
+            </a>
             <img src={props.welcomePhoto4} className="welcome-board-image " alt={"welcome-board-4"} />
         </div>
         <div className="welcome-board-logo">

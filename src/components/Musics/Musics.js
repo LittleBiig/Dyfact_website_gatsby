@@ -12,7 +12,7 @@ const Music = () => (
             <div className="col-12 offset-xl-2 col-xl-8 justify-content-center">
                 <div className={"row justify-content-center"}>
                     <div className={"offset-2 col-8 offset-md-0 col-md-4 col-xl-3 mx-3 cover"}>
-                        <a href="https://www.youtube.com/watch?v=J1odG8DHjyQ"
+                        <a href="https://www.youtube.com/watch?v=Bxgt93As3pc"
                            target="_blank"
                            rel="noopener noreferrer"
                         >
@@ -22,7 +22,7 @@ const Music = () => (
                         </a>
                     </div>
                     <div className={"offset-2 col-8 offset-md-0 col-md-4 col-xl-3 mx-3 cover"}>
-                        <a href="https://www.youtube.com/watch?v=Bxgt93As3pc"
+                        <a href="https://www.youtube.com/watch?v=J1odG8DHjyQ"
                            target="_blank"
                            rel="noopener noreferrer"
                         >

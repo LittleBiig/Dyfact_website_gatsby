@@ -17,25 +17,25 @@ const Contact = () => (
                     <div className="  col-12 contact-links-icones">
                         <img src={iconFacebook} alt="" />
                         { /* eslint-disable-next-line */ }
-                        <a href="https://www.facebook.com/Dyfactmusic/" target="_blank"  rel="noopener noreferrer">Facebook</a>
+                        <a href="https://www.facebook.com/Dyfactmusic/" target="_blank"  rel="noopener noreferrer">dyfact</a>
                     </div>
 
                     <div className=" col-12 contact-links-icones">
                         <img src={iconInstagram} alt="" />
                         { /* eslint-disable-next-line */ }
-                        <a href="https://www.instagram.com/dyfact/" target="_blank"  rel="noopener noreferrer">Instagram</a>
+                        <a href="https://www.instagram.com/dyfact/" target="_blank"  rel="noopener noreferrer">@dyfact</a>
                     </div>
 
                     <div className=" col-12 contact-links-icones">
                         <img src={iconYoutube} alt="" />
                         { /* eslint-disable-next-line */ }
                         <a href="https://www.youtube.com/channel/UC0jIHcMBGwfCz5mCjnngM_g"
-                           target="_blank"  rel="noopener noreferrer">Youtube</a>
+                           target="_blank"  rel="noopener noreferrer">dyfact</a>
                     </div>
                     <div className=" col-12 contact-links-icones">
                         <img src={iconSoundcloud}  alt="" />
                         { /* eslint-disable-next-line */ }
-                        <a href="https://soundcloud.com/dyfact" target="_blank"  rel="noopener noreferrer">Soundcloud</a>
+                        <a href="https://soundcloud.com/dyfact" target="_blank"  rel="noopener noreferrer">dyfact</a>
                     </div>
 
                     <div className=" col-12 contact-links-icones">

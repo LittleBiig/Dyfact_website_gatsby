@@ -45,6 +45,12 @@ const HomePage = () => (
                         src
                       }
               }
+
+          emptyPlace3 {
+              fluid(maxWidth: 2500) {
+                        src
+                      }
+              }
           biographyText {
             biographyText
           }
@@ -73,7 +79,7 @@ const HomePage = () => (
                 <Biography html={data.contentfulHomePage.biography.childContentfulRichText.html}/>
                 <EmptyPlace image={data.contentfulHomePage.emptyPlace2.fluid.src}/>
                 <Newsletter />
-                <EmptyPlace image={data.contentfulHomePage.emptyPlace2.fluid.src}/>
+                <EmptyPlace image={data.contentfulHomePage.emptyPlace3.fluid.src}/>
                 <Contact />
                 <Footer footerText={data.contentfulHomePage.footerText}/>
             </>

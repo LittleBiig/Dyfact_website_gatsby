@@ -71,16 +71,6 @@ const Music = () => (
                             />
                         </a>
                     </div>
-                    <div className={"offset-2 col-8 offset-md-0 col-md-4 col-xl-3 mx-3 cover"}>
-                        <a href="https://www.youtube.com/watch?v=lp7094imyHk"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                        >
-                            <img src="https://i.scdn.co/image/29ec49e8459c1d6e0207b4dcaafcfe32aece6c5a"
-                                 alt="cover Lift Me Up"
-                            />
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>

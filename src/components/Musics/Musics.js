@@ -16,7 +16,7 @@ const Music = () => (
                            target="_blank"
                            rel="noopener noreferrer"
                         >
-                        <img src="https://i.scdn.co/image/ab67616d00001e02f08a34634a84b9424140ef8f
+                        <img src="https://i.scdn.co/image/ab67616d00001e02f08a34634a84b9424140ef8f"
                              alt="cover Everything"
                         />
                         </a>
